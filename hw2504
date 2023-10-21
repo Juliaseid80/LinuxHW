@@ -1,0 +1,8 @@
+1 #!/bin/bash
+  2
+  3 touch /tmp/Logovikova_Julia.txt
+  4
+  5 date +"%H:%M:%S" >> /tmp/Logovikova_Julia.txt
+  6
+  7 cat /etc/group | tail -3 | sed 's/user2/Logovikova_Julia/' >> /tmp/Logovikova_Julia.txt
+  8
